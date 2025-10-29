@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.mat-mdc-tab{
+    padding: 10px 0 !important;
+}
+.mdc-tab--active{
+    background: #8080804a !important;
+}
+.top-right-snackbar {
+  position: absolute !important; 
+  top: 20px !important; /* Adjust vertical position as needed */
+  right: 20px !important; /* Push to the right */
+  z-index: 10000 !important; /* Ensure it appears above other elements */
+  background: white !important;
+}
