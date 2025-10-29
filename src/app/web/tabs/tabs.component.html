@@ -1,7 +1,7 @@
 <div class="container mt-4">
 
     <mat-tab-group [(selectedIndex)]="tabIndex">
-
+        <!-- Dynamically generate tabs based on allForms array -->
         @for (item of allForms; track $index) {
         <mat-tab [label]="item.tabName">
             <app-dynamic-form [schema]="item.fields" [initialData]="tabService.getFormData(item.tabName)"
